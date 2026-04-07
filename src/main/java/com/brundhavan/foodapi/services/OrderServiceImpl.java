@@ -27,9 +27,9 @@ public class OrderServiceImpl implements OrderService{
     @Autowired
     private CartRepository cartRespository;
 
-    @Value("${razorpay_key}")
+    @Value("${RAZORPAY_KEY}")
     private String RAZORPAY_KEY;
-    @Value("${razorpay_secret}")
+    @Value("${RAZORPAY_SECRET}")
     private String RAZORPAY_SECRET;
 
     @Override
